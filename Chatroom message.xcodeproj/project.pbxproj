@@ -16,6 +16,7 @@
 		492C3151299B7E3B00390D9D /* Chatroom_messageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492C3150299B7E3B00390D9D /* Chatroom_messageTests.swift */; };
 		492C315B299B7E3B00390D9D /* Chatroom_messageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492C315A299B7E3B00390D9D /* Chatroom_messageUITests.swift */; };
 		492C315D299B7E3B00390D9D /* Chatroom_messageUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492C315C299B7E3B00390D9D /* Chatroom_messageUITestsLaunchTests.swift */; };
+		492C316A299B7F1700390D9D /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492C3169299B7F1700390D9D /* CoreData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		492C3156299B7E3B00390D9D /* Chatroom messageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chatroom messageUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		492C315A299B7E3B00390D9D /* Chatroom_messageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chatroom_messageUITests.swift; sourceTree = "<group>"; };
 		492C315C299B7E3B00390D9D /* Chatroom_messageUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chatroom_messageUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		492C3169299B7F1700390D9D /* CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			children = (
 				492C313A299B7E3900390D9D /* Chatroom_messageApp.swift */,
 				492C313C299B7E3900390D9D /* ContentView.swift */,
+				492C3169299B7F1700390D9D /* CoreData.swift */,
 				492C313E299B7E3A00390D9D /* Assets.xcassets */,
 				492C3143299B7E3A00390D9D /* Persistence.swift */,
 				492C3145299B7E3A00390D9D /* Chatroom_message.xcdatamodeld */,
@@ -267,6 +270,7 @@
 				492C313D299B7E3900390D9D /* ContentView.swift in Sources */,
 				492C3147299B7E3A00390D9D /* Chatroom_message.xcdatamodeld in Sources */,
 				492C313B299B7E3900390D9D /* Chatroom_messageApp.swift in Sources */,
+				492C316A299B7F1700390D9D /* CoreData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

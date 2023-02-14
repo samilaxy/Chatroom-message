@@ -17,6 +17,28 @@ struct CoreData: View {
         animation: .default)
     private var items: FetchedResults<Item>
     
+    let joinMessage = Message(userId: "1",
+                              contents: nil,
+                              date: Date(),
+                              hasJoined: true, // Set the joined Boolean
+                              hasLeft: false,
+                              isBeingDrafted: false,
+                              isSendingBalloons: false)
+    let textMessage = Message(userId: "2",
+                              contents: "Hey everyone!", // Pass a message
+                              date: Date(),
+                              hasJoined: false,
+                              hasLeft: false,
+                              isBeingDrafted: false,
+                              isSendingBalloons: false)
+    let brokenMessage = Message(userId: "1",
+                                contents: "Hi there", // Have text to show a joining state
+                                date: Date(),
+                                hasJoined: true, // But this message also signals
+                                hasLeft: true, // ... and a leaving state
+                                isBeingDrafted: false,
+                                isSendingBalloons: false)
+    
     var body: some View {
         NavigationView {
             List {

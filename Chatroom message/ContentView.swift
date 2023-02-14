@@ -10,13 +10,7 @@ import CoreData
 
 struct ContentView: View {
     
-    let joinMessage = Message(userid: "1",
-                              contents: nil,
-                              date: Date(),
-                              hasJoined: true, // Set the joined Boolean
-                              hasLeft: false,
-                              isBeingDrafted: false,
-                              isSendingBallons: false)
+   
     var body: some View {
         CoreData()
     }
